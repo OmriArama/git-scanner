@@ -1,0 +1,22 @@
+{
+  "name": "github-trending-scan",
+  "version": "1.0.0",
+  "description": "JIT home assignment",
+  "main": "index.js",
+  "scripts": {
+    "git-scanner": "./index.js"
+  },
+  "author": "Omri Arama",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "commander": "^9.2.0",
+    "dependency-check": "^4.1.0",
+    "extract-zip": "^2.0.1",
+    "trending-github": "^2.0.7"
+  },
+  "type": "module",
+  "bin": {
+    "git-scanner": "index.js"
+  }
+}
